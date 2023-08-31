@@ -172,7 +172,7 @@ public class MenuLogin {
                 LoginDao loginDao = new LoginDao();
                 String correoDB = loginDao.mailQuery(correo);
                 if (!correo.equals(correoDB)) {
-                    System.out.println("Correo no valido");
+                    System.out.println("Correo no valido ");
                 } else {
                     try {
                         LoginDao login = new LoginDao();
